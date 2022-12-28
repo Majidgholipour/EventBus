@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventBus", "EventBus\EventBus.csproj", "{11BCA706-157A-4E27-9969-00E34A587B50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventBus.RabbitMQ", "EventBus.RabbitMQ\EventBus.RabbitMQ.csproj", "{0972F232-D907-4122-91D5-73072F990872}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventBus.InegrationEvent", "EventBus.InegrationEvent\EventBus.InegrationEvent.csproj", "{C43F1C51-20D2-4272-8C3B-5BB8C99336A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventBus.Api", "EventBus.Api\EventBus.Api.csproj", "{221D0982-0503-4248-A096-AE234F4998D0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11BCA706-157A-4E27-9969-00E34A587B50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11BCA706-157A-4E27-9969-00E34A587B50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11BCA706-157A-4E27-9969-00E34A587B50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11BCA706-157A-4E27-9969-00E34A587B50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0972F232-D907-4122-91D5-73072F990872}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0972F232-D907-4122-91D5-73072F990872}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0972F232-D907-4122-91D5-73072F990872}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0972F232-D907-4122-91D5-73072F990872}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C43F1C51-20D2-4272-8C3B-5BB8C99336A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C43F1C51-20D2-4272-8C3B-5BB8C99336A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C43F1C51-20D2-4272-8C3B-5BB8C99336A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C43F1C51-20D2-4272-8C3B-5BB8C99336A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{221D0982-0503-4248-A096-AE234F4998D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{221D0982-0503-4248-A096-AE234F4998D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{221D0982-0503-4248-A096-AE234F4998D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{221D0982-0503-4248-A096-AE234F4998D0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

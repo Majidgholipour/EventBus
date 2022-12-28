@@ -1,0 +1,15 @@
+﻿global using Microsoft.Extensions.DependencyInjection;
+global using Microsoft.Extensions.Logging;
+global using EventBus.Bus;
+global using EventBus.RabbitMQ.Bus;
+global using EventBus.RabbitMQ.Connection;
+global using EventBus.Subscriptions;
+global using RabbitMQ.Client;
+global using Polly;
+global using RabbitMQ.Client.Events;
+global using RabbitMQ.Client.Exceptions;
+global using System.Net.Sockets;
+global using System.Reflection;
+global using System.Text;
+global using System.Text.Json;
+global using EventBus.Events;
