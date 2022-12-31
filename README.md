@@ -25,7 +25,7 @@ public class MessageEvent : Event
   ```console
     dotnet add package RabbitMQ.Client --version 6.4.0
   ```
-  Console Package Manager
+  Package Manager Console
   ```console
     dotnet add package RabbitMQ.Client --version 6.4.0
   ```
@@ -77,8 +77,8 @@ public class MessageEvent : Event
   ```console
     dotnet add package RabbitMQ.Client --version 6.4.0
   ```
-  Console Package Manager
-  ```console
+Package Manager Console
+```console
     dotnet add package RabbitMQ.Client --version 6.4.0
   ```
   3. Add referece EventBus, EventBus.RabbitMQ and EventBus.InegrationEvent in your project
